@@ -56,9 +56,6 @@ class MovieSearchBloc extends Bloc<MovieSearchEvent, MovieSearchState> {
           searchedMovies!.totalResults > searchedMovies!.results.length
               ? true
               : false;
-
-      print(
-          'total results : ${searchedMovies!.totalResults} fetched results : ${searchedMovies!.results.length}');
     }
   }
 

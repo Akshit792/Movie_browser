@@ -48,9 +48,6 @@ class AllMoviesBloc extends Bloc<AllMoviesEvent, AllMoviesState> {
 
     canLoadMore =
         allMovies!.totalResults > allMovies!.results.length ? true : false;
-
-    print(
-        'total results : ${allMovies!.totalResults} fetched results : ${allMovies!.results.length}');
   }
 
   void nextPage() {
