@@ -211,7 +211,7 @@ class _MovieSearchScreenState extends State<MovieSearchScreen> {
                     height: 10,
                   ),
                   const Text(
-                    'plot summary',
+                    'Plot summary',
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w600,
